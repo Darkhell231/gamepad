@@ -1,10 +1,11 @@
 {
-  "obsessed": {
-    "file": "hitler.mp4"
+  "password": { 
+    "file": "video.mp4" 
   },
   "pass": { 
-    "file": "hitler.mp4" 
+    "file": "video.mp4" 
   },
   "word": { 
-    "file": "hitler.mp4"
+    "file": "video.mp4" 
+  }
 }
