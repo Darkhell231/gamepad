@@ -2,6 +2,12 @@
   "password": { 
     "file": "video.mp4" 
   },
-  "alternatives": ["pass", "word"]
+  "pass": { 
+    "file": "video.mp4" 
+  },
+  "word": { 
+    "file": "video.mp4" 
+  }
 }
+
 
