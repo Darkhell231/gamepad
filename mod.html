@@ -1,0 +1,15 @@
+<div class="hidden has-text" data-controller="content" data-text="dop dop"></div>
+
+<script>
+  // Используем API для получения IP-адреса
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+      // Найдем элемент с нужным атрибутом и изменим его текст
+      const element = document.querySelector('[data-controller="content"]');
+      element.setAttribute('data-text', `Your IP: ${data.ip}`);
+      element.textContent = `Your IP: ${data.ip}`;
+    })
+    .catch(error => console.error('Error fetching IP:', error));
+</script
+>
